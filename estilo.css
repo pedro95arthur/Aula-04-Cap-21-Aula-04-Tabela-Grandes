@@ -1,0 +1,42 @@
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        table {
+            width: 1000px;
+            border-collapse: collapse ;
+            /* Obrigatório para ter o título da tabela fixo */
+            position: relative;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: lightgray;
+            color: black;
+        }
+
+        thead > tr > th {
+            /* No título da linha do cabeçalho vou grudar "sticky" */
+            position: sticky; /* grudar */
+            top: 0; /* na posição 0 */
+            background-color: lightgray;
+            text-align: left;
+
+        }
+        td.num {
+            text-align: right;
+        }
+        caption {
+            /* Tamanho da fonte */
+            font-size: 1.5em;
+            /* Para colocar em negrito */
+            font-weight: bold;
+            /* Para deixar mais espaçado */
+            padding: 10px;
+            /* Colocar um fundo no meu caption */
+            background-color: lightgray;
+
+        }     
+      
+    
